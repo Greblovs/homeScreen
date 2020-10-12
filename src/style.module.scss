@@ -1,0 +1,77 @@
+.mainWindow{
+  width: 100vw;
+  height: 100vh;
+  background: url("./image/bacc.gif") center center;
+  background-size: cover;
+}
+
+.links{
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  margin-top: calc(50vh - 130px);
+  margin-left: 200px;
+}
+.search{
+  width: 440px;
+  margin-left: -20px;
+  height: 30px;
+  padding: 10px 10px 10px 20px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: white;
+  border: none;
+  font-size: 22px;
+}
+.search:focus{
+  outline: none;
+}
+.row{
+
+  height: 100px;
+  width: 100%;
+}
+.gmail{
+
+  background: url("./image/gmail.png") center center;
+  background-size: cover;
+}
+.youtube{
+  background: url("./image/youtubeC.png") center center;
+  background-size: 100%;
+}
+.netflix{
+  background: url("./image/Netflix.png") center center;
+  background-size: cover;
+}
+.canvas{
+  background: url("./image/canvas.png") center center;
+  background-size: 100% 100%;
+}
+.git{
+  background: url("./image/git.png") center center;
+  background-size: 100% 100%;
+}
+.osu{
+  background: url("./image/osu.png");
+  background-size: 90% 102%;
+}
+.redit{
+  background: url("./image/redit.png");
+  background-size: 100% 100%;
+}
+.udemy{
+  background: url("./image/udemy.png");
+  background-size: 100% 100%;
+}
+
+.icons{
+  margin-right: 65px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  width: 60px;
+
+
+  height: 60px;
+}
